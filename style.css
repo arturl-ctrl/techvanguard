@@ -1,0 +1,75 @@
+.logo {
+    text-align: center;
+    width: 100%;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: black;
+    cursor: default;
+}
+
+.logo span {
+    color: rgb(14, 232, 14);
+}
+
+
+*  html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 2px solid black;
+    background-color: rgb(135, 132, 132);
+
+}
+
+.opcoes {
+    display: flex;
+    gap: 20px;
+}
+
+.opcoes a {
+    white-space: nowrap;
+    text-decoration: none;
+    color: black;
+}
+ 
+.container{
+    padding-left: 10px;
+    cursor: default;
+    background-color: rgb(91, 142, 141);
+    padding: 40px 15px;
+    width: 100%;
+    min-height: calc(100vh - 67px);
+    box-sizing: border-box;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+
+.imagens > div {
+    width: 32%;             
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    text-align: center;     
+}
+
+
+.imagens img {
+    width: 100%;            
+    height: auto;
+    margin-bottom: 12px;    
+}
+
+
